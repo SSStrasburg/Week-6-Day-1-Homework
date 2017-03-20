@@ -11,7 +11,7 @@
 
     constructor(name, dateOfBirth, humpNumber) {
       //execute the constructor of the parent class (Animal)
-      super(name, dateOfBirth) // must do super because
+      super(name, dateOfBirth); // must do super because
       this.humpNumber = humpNumber
       //adding specific Camel stuff
       this.ridable = true;

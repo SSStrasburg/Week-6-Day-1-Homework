@@ -26,10 +26,14 @@
   let bumbleBee = new Giraffe('bumbleBee', new Date('1/1/2002'), true );
   let felicia = new Giraffe('felicia', new Date('1/1/2000'), true );
   let jen =  new Giraffe('jen', new Date('1/1/1988'), false );
+  console.log(felicia.giveBirth('babyJen') );
+  console.log(felicia.giveBirth('beyonce') );
+  console.log(felicia.giveBirth('dorie') );
+  console.log(felicia.children);
 
-//trainers
-  let steven = new trainers('steven', new Date('1/1/1983'), true );
-  let alex = new trainers('alex', new Date('1/1/1987'), true );
-  let russel = new trainers('russel', new Date('1/1/1978'), true );
+// //trainers
+//   let steven = new trainers('steven', new Date('1/1/1983'), true );
+//   let alex = new trainers('alex', new Date('1/1/1987'), true );
+//   let russel = new trainers('russel', new Date('1/1/1978'), true );
 
 })();
