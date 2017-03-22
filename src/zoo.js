@@ -26,10 +26,42 @@
   let bumbleBee = new Giraffe('bumbleBee', new Date('1/1/2002'), true );
   let felicia = new Giraffe('felicia', new Date('1/1/2000'), true );
   let jen =  new Giraffe('jen', new Date('1/1/1988'), false );
-  console.log(felicia.giveBirth('babyJen') );
-  console.log(felicia.giveBirth('beyonce') );
-  console.log(felicia.giveBirth('dorie') );
-  console.log(felicia.children);
+  // console.log(felicia.giveBirth('babyJen') );
+  // console.log(felicia.giveBirth('beyonce') );
+  // console.log(felicia.giveBirth('dorie') );
+  // console.log(felicia.children);
+
+
+try {
+  humpDay.giveTheAnimalAName('randomName');
+} catch ( error ) {
+  console.log( error );
+}
+
+try {
+  humpDay.age(1983);
+} catch ( error ) {
+  console.log( error );
+}
+
+try {
+  new Camel('Thumper', 1/1/2000, 2);
+} catch ( error ) {
+  console.log( error );
+}
+
+
+  // try{
+  //   console.log(wilber.age);
+  //   (wilber.age).typeof === ;
+  // } catch(err){
+  //   if (err instanceof TypeError){
+  //     console.warn( err.message );
+  //     throw err;
+  //   } finally {
+  //     console.log('error check completed finally!');
+  //   }
+  // }
 
 // //trainers
 //   let steven = new trainers('steven', new Date('1/1/1983'), true );
